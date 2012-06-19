@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F000600B1591207B006E973D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F000600A1591207B006E973D /* UIKit.framework */; };
+		F000600D1591207B006E973D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F000600C1591207B006E973D /* Foundation.framework */; };
+		F000600F1591207B006E973D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F000600E1591207B006E973D /* CoreGraphics.framework */; };
+		F00060151591207B006E973D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00060131591207B006E973D /* InfoPlist.strings */; };
+		F00060171591207B006E973D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F00060161591207B006E973D /* main.m */; };
+		F000601B1591207B006E973D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F000601A1591207B006E973D /* AppDelegate.m */; };
+		F000601E1591207B006E973D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F000601C1591207B006E973D /* MainStoryboard.storyboard */; };
+		F00060211591207B006E973D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F00060201591207B006E973D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00060061591207B006E973D /* Speech Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F000600A1591207B006E973D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F000600C1591207B006E973D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F000600E1591207B006E973D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F00060121591207B006E973D /* Speech Dictionary-Info.plist */ = {isa = PBXFileReference; path = "Speech Dictionary-Info.plist"; sourceTree = "<group>"; };
+		F00060141591207B006E973D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F00060161591207B006E973D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F00060181591207B006E973D /* Speech Dictionary-Prefix.pch */ = {isa = PBXFileReference; path = "Speech Dictionary-Prefix.pch"; sourceTree = "<group>"; };
+		F00060191591207B006E973D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F000601A1591207B006E973D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F000601D1591207B006E973D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F000601F1591207B006E973D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F00060201591207B006E973D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00060031591207B006E973D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F000600B1591207B006E973D /* UIKit.framework in Frameworks */,
+				F000600D1591207B006E973D /* Foundation.framework in Frameworks */,
+				F000600F1591207B006E973D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0005FFB1591207B006E973D = {
+			isa = PBXGroup;
+			children = (
+				F00060101591207B006E973D /* Speech Dictionary */,
+				F00060091591207B006E973D /* Frameworks */,
+				F00060071591207B006E973D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F00060071591207B006E973D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00060061591207B006E973D /* Speech Dictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00060091591207B006E973D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F000600A1591207B006E973D /* UIKit.framework */,
+				F000600C1591207B006E973D /* Foundation.framework */,
+				F000600E1591207B006E973D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00060101591207B006E973D /* Speech Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F00060191591207B006E973D /* AppDelegate.h */,
+				F000601A1591207B006E973D /* AppDelegate.m */,
+				F000601C1591207B006E973D /* MainStoryboard.storyboard */,
+				F000601F1591207B006E973D /* ViewController.h */,
+				F00060201591207B006E973D /* ViewController.m */,
+				F00060111591207B006E973D /* Supporting Files */,
+			);
+			path = "Speech Dictionary";
+			sourceTree = "<group>";
+		};
+		F00060111591207B006E973D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00060121591207B006E973D /* Speech Dictionary-Info.plist */,
+				F00060131591207B006E973D /* InfoPlist.strings */,
+				F00060161591207B006E973D /* main.m */,
+				F00060181591207B006E973D /* Speech Dictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00060051591207B006E973D /* Speech Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00060241591207B006E973D /* Build configuration list for PBXNativeTarget "Speech Dictionary" */;
+			buildPhases = (
+				F00060021591207B006E973D /* Sources */,
+				F00060031591207B006E973D /* Frameworks */,
+				F00060041591207B006E973D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speech Dictionary";
+			productName = "Speech Dictionary";
+			productReference = F00060061591207B006E973D /* Speech Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0005FFD1591207B006E973D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F00060001591207B006E973D /* Build configuration list for PBXProject "Speech Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0005FFB1591207B006E973D;
+			productRefGroup = F00060071591207B006E973D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00060051591207B006E973D /* Speech Dictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00060041591207B006E973D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00060151591207B006E973D /* InfoPlist.strings in Resources */,
+				F000601E1591207B006E973D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00060021591207B006E973D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00060171591207B006E973D /* main.m in Sources */,
+				F000601B1591207B006E973D /* AppDelegate.m in Sources */,
+				F00060211591207B006E973D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F00060131591207B006E973D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00060141591207B006E973D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F000601C1591207B006E973D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F000601D1591207B006E973D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F00060221591207B006E973D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F00060231591207B006E973D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00060251591207B006E973D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speech Dictionary/Speech Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Speech Dictionary/Speech Dictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F00060261591207B006E973D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speech Dictionary/Speech Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Speech Dictionary/Speech Dictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00060001591207B006E973D /* Build configuration list for PBXProject "Speech Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00060221591207B006E973D /* Debug */,
+				F00060231591207B006E973D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00060241591207B006E973D /* Build configuration list for PBXNativeTarget "Speech Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00060251591207B006E973D /* Debug */,
+				F00060261591207B006E973D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0005FFD1591207B006E973D /* Project object */;
+}
